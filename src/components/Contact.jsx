@@ -1,8 +1,8 @@
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowUpRight, AtSign, Github, Linkedin, Mail, Send } from 'lucide-react'
+import { ArrowUpRight, AtSign, Github, Linkedin, Mail, MessageCircle, Send } from 'lucide-react'
 import { site } from '../data/site'
 
-const icons = { linkedin: Linkedin, x: AtSign, telegram: Send, github: Github }
+const icons = { linkedin: Linkedin, x: AtSign, telegram: Send, discord: MessageCircle, github: Github }
 
 export default function Contact() {
   const reducedMotion = useReducedMotion()

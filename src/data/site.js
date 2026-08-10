@@ -8,7 +8,8 @@ export const site = {
     channels: [
       { id: 'linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/samuelxo/', ariaLabel: 'Connect with me on LinkedIn' },
       { id: 'x', label: 'X', url: 'https://x.com/fiyinxo', ariaLabel: 'Connect with me on X' },
-      { id: 'telegram', label: 'Telegram', url: '', ariaLabel: 'Contact me on Telegram', unavailableMessage: 'Telegram URL needed' },
+      { id: 'telegram', label: 'Telegram', url: 'https://t.me/samuelxo', ariaLabel: 'Contact me on Telegram' },
+      { id: 'discord', label: 'Discord', url: 'https://discord.com/users/905277727685353573', ariaLabel: 'Contact me on Discord' },
       { id: 'github', label: 'GitHub', url: 'https://github.com/deaduramilade', ariaLabel: 'View my GitHub profile' },
     ],
   },
