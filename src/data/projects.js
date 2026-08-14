@@ -21,6 +21,16 @@ export const projects = [
     featured: true,
   },
   {
+    id: 'beyondbeams',
+    title: 'BeyondBeams',
+    category: 'AI Governance / Cybersecurity',
+    description: 'A read-only portfolio demonstration exploring how consequential AI-assisted institutional actions can remain governed by authorization, policy, human review, and verifiable evidence.',
+    technologies: ['AI Governance', 'Authorization', 'Policy Enforcement', 'Human Review', 'Verifiable Evidence', 'Security Architecture'],
+    github: 'https://github.com/deaduramilade/BeyondBeams',
+    liveDemo: 'https://beyond-beams.vercel.app',
+    featured: true,
+  },
+  {
     id: 'weather-air-quality-dashboard',
     title: 'Weather & Air Quality Dashboard',
     category: 'Python',
